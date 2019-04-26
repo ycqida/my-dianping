@@ -9,7 +9,7 @@ export default {
             return value
         }
     },
-    setItem: function(key, value) { 
+    setItem: function(key, value) {
         try {
             localStorage.setItem(key, value)
         } catch (ex) {

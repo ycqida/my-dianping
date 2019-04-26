@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import './style.less'
-
 
 class index extends Component {
     constructor(props) {
         super(props);
+        this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
         this.state = {  };
     }
     render() {
         return (
-           <div className='load-more' ref='wrapper'>
-            {
-                this.props.isLoadingMore ? <span> 加载中... </span> : <span onClick={this.props.loadMoreFn}>加载更多</span>
-            }
-           </div>
+            <div>
+                orderList
+            </div>
         );
     }
 }

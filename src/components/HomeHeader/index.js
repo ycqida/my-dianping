@@ -8,10 +8,11 @@ class index extends Component {
     constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+        this.state = {
+
+        }
     }
 
-    state = {  }
-    
     render() {
         let { cityName } = this.props.cityName;
         return (

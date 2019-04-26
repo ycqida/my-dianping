@@ -5,11 +5,12 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import App from '@/pages';
 
 import Home from '@/pages/Home';
-
 import Search from '@/pages/Search'
-
-
 import List from '@/pages/List';
+
+import City from '@/pages/City'
+import Login from '@/pages/Login'
+import User from '@/pages/User';
 
 import Detail from '@/pages/Detail';
 import DetailPage from '@/pages/Detail/DetailPage';
@@ -21,6 +22,18 @@ export const routes = [
         path: "/",
         component: Home,
         exact: true
+    },
+    {
+        path: "/city",
+        component: City,
+    },
+    {
+        path: '/login',
+        component: Login
+    },
+    {
+        path: '/user',
+        component: User
     },
     {
         path: '/search/:category/:keyword',

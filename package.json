@@ -134,6 +134,7 @@
     "react-router-config": "^5.0.0",
     "react-swipe": "^5.0.5",
     "redux": "^4.0.1",
+    "sleep-promise": "^8.0.1",
     "swipe-js-iso": "^2.1.5",
     "whatwg-fetch": "^3.0.0"
   }

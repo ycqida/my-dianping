@@ -3,16 +3,17 @@
 
 使用 pm2 管理  npm install pm2 -g
 
-1 install install
-
+1安装依赖
+install install
 
 2运行开发环境
 npm run dev 
 
 3开发环境的mock数据 代理接口接口为 3200
-npm run mock 
+npm run mock
 
-4 localhost:3100
+4浏览器上访问
+localhost:3100
 
 
 
